@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Information - Zomato</title>
+    <link rel="stylesheet" href="CSS/stock-information.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <h1>zomato</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="investor-main.html" class="active">Investor Relations</a></li>
+                <li><a href="restaurants.html">Restaurants</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="signup.html">Signup</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="hero-content">
+            <h1 class="hero-title">Stock Information</h1>
+            <p class="hero-subtitle">Share price, market data, and investor communications</p>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <div class="container">
+        <!-- Stock Overview -->
+        <section class="stock-overview">
+            <div class="stock-header">
+                <div class="stock-info">
+                    <h2>ZOMATO</h2>
+                    <p class="exchange">NSE: ZOMATO | BSE: 543320</p>
+                </div>
+                <div class="stock-price">
+                    <div class="current-price">₹185.50</div>
+                    <div class="price-change positive">+12.50 (+7.22%)</div>
+                </div>
+            </div>
+            
+            <div class="stock-metrics">
+                <div class="metric">
+                    <span class="metric-label">Market Cap</span>
+                    <span class="metric-value">₹1,63,450 Cr</span>
+                </div>
+                <div class="metric">
+                    <span class="metric-label">52W High</span>
+                    <span class="metric-value">₹196.40</span>
+                </div>
+                <div class="metric">
+                    <span class="metric-label">52W Low</span>
+                    <span class="metric-value">₹48.85</span>
+                </div>
+                <div class="metric">
+                    <span class="metric-label">P/E Ratio</span>
+                    <span class="metric-value">142.85</span>
+                </div>
+                <div class="metric">
+                    <span class="metric-label">Volume</span>
+                    <span class="metric-value">2.5M</span>
+                </div>
+                <div class="metric">
+                    <span class="metric-label">Avg Volume</span>
+                    <span class="metric-value">3.2M</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Chart Section -->
+        <section class="chart-section">
+            <h2>Price Performance</h2>
+            <div class="chart-container">
+                <div class="chart-placeholder">
+                    <div class="chart-line"></div>
+                    <div class="chart-points">
+                        <div class="point" style="left: 10%; bottom: 20%;"></div>
+                        <div class="point" style="left: 25%; bottom: 35%;"></div>
+                        <div class="point" style="left: 40%; bottom: 25%;"></div>
+                        <div class="point" style="left: 55%; bottom: 60%;"></div>
+                        <div class="point" style="left: 70%; bottom: 45%;"></div>
+                        <div class="point" style="left: 85%; bottom: 75%;"></div>
+                    </div>
+                </div>
+                <div class="chart-controls">
+                    <button class="chart-btn active">1D</button>
+                    <button class="chart-btn">5D</button>
+                    <button class="chart-btn">1M</button>
+                    <button class="chart-btn">3M</button>
+                    <button class="chart-btn">6M</button>
+                    <button class="chart-btn">1Y</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Key Statistics -->
+        <section class="statistics-section">
+            <h2>Key Statistics</h2>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <h3>Valuation Metrics</h3>
+                    <div class="stat-items">
+                        <div class="stat-item">
+                            <span class="stat-name">Enterprise Value</span>
+                            <span class="stat-value">₹1,58,200 Cr</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-name">EV/Revenue</span>
+                            <span class="stat-value">18.6x</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-name">Price to Book</span>
+                            <span class="stat-value">8.4x</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-name">Price to Sales</span>
+                            <span class="stat-value">19.2x</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="stat-card">
+                    <h3>Trading Information</h3>
+                    <div class="stat-items">
+                        <div class="stat-item">
+                            <span class="stat-name">Beta</span>
+                            <span class="stat-value">1.85</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-name">Shares Outstanding</span>
+                            <span class="stat-value">881.2M</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-name">Float</span>
+                            <span class="stat-value">745.8M</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-name">Short Interest</span>
+                            <span class="stat-value">2.1%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="stat-card">
+                    <h3>Dividend Information</h3>
+                    <div class="stat-items">
+                        <div class="stat-item">
+                            <span class="stat-name">Dividend Yield</span>
+                            <span class="stat-value">N/A</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-name">Payout Ratio</span>
+                            <span class="stat-value">N/A</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-name">Ex-Dividend Date</span>
+                            <span class="stat-value">N/A</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-name">Next Dividend</span>
+                            <span class="stat-value">TBA</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Recent News -->
+        <section class="news-section">
+            <h2>Recent Stock News</h2>
+            <div class="news-grid">
+                <div class="news-item">
+                    <div class="news-date">Dec 15, 2024</div>
+                    <h3>Zomato Reports Strong Q3 Results</h3>
+                    <p>Revenue growth of 23% YoY with improved unit economics across all verticals.</p>
+                    <a href="#" class="news-link">Read More →</a>
+                </div>
+
+                <div class="news-item">
+                    <div class="news-date">Dec 10, 2024</div>
+                    <h3>Expansion into New Markets</h3>
+                    <p>Zomato announces entry into 50 new tier-2 and tier-3 cities across India.</p>
+                    <a href="#" class="news-link">Read More →</a>
+                </div>
+
+                <div class="news-item">
+                    <div class="news-date">Dec 05, 2024</div>
+                    <h3>Strategic Partnership Announced</h3>
+                    <p>New partnership with leading logistics company to enhance delivery capabilities.</p>
+                    <a href="#" class="news-link">Read More →</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Analyst Coverage -->
+        <section class="analyst-section">
+            <h2>Analyst Coverage</h2>
+            <div class="analyst-grid">
+                <div class="analyst-summary">
+                    <div class="rating-overview">
+                        <h3>Analyst Ratings</h3>
+                        <div class="rating-bars">
+                            <div class="rating-bar">
+                                <span class="rating-label">Strong Buy</span>
+                                <div class="rating-progress">
+                                    <div class="progress-fill" style="width: 45%;"></div>
+                                </div>
+                                <span class="rating-count">9</span>
+                            </div>
+                            <div class="rating-bar">
+                                <span class="rating-label">Buy</span>
+                                <div class="rating-progress">
+                                    <div class="progress-fill" style="width: 35%;"></div>
+                                </div>
+                                <span class="rating-count">7</span>
+                            </div>
+                            <div class="rating-bar">
+                                <span class="rating-label">Hold</span>
+                                <div class="rating-progress">
+                                    <div class="progress-fill" style="width: 15%;"></div>
+                                </div>
+                                <span class="rating-count">3</span>
+                            </div>
+                            <div class="rating-bar">
+                                <span class="rating-label">Sell</span>
+                                <div class="rating-progress">
+                                    <div class="progress-fill" style="width: 5%;"></div>
+                                </div>
+                                <span class="rating-count">1</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="price-targets">
+                    <h3>Price Targets</h3>
+                    <div class="target-metrics">
+                        <div class="target-item">
+                            <span class="target-label">Average Target</span>
+                            <span class="target-value">₹210.50</span>
+                        </div>
+                        <div class="target-item">
+                            <span class="target-label">High Target</span>
+                            <span class="target-value">₹250.00</span>
+                        </div>
+                        <div class="target-item">
+                            <span class="target-label">Low Target</span>
+                            <span class="target-value">₹165.00</span>
+                        </div>
+                        <div class="target-item">
+                            <span class="target-label">Upside Potential</span>
+                            <span class="target-value positive">+13.5%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Stock Information</h4>
+                <p>Real-time stock data and investor communications for Zomato Limited.</p>
+                <p>Email: investors@zomato.com</p>
+                <p>Phone: +91-11-1234-5680</p>
+            </div>
+            <div class="footer-section">
+                <h4>Market Data</h4>
+                <ul>
+                    <li><a href="#">Live Price</a></li>
+                    <li><a href="#">Historical Data</a></li>
+                    <li><a href="#">Analyst Reports</a></li>
+                    <li><a href="#">Earnings Calendar</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Resources</h4>
+                <ul>
+                    <li><a href="#">Stock Calculator</a></li>
+                    <li><a href="#">Dividend History</a></li>
+                    <li><a href="#">SEC Filings</a></li>
+                    <li><a href="#">Press Releases</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2024 Zomato Limited. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/stock-information.js"></script>
+</body>
+</html>
+
